@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T15:39:42 IST" name="Suite" finished-at="2024-01-19T15:40:01 IST" duration-ms="19817">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-19T15:39:42 IST" name="Test" finished-at="2024-01-19T15:40:01 IST" duration-ms="19817">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:42 IST" name="beforeAll" finished-at="2024-01-19T15:39:42 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAll -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:42 IST" name="setUpClass" finished-at="2024-01-19T15:39:42 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61e462a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T15:39:51 IST" duration-ms="9462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Application by Reading Excel Data after writting data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T15:39:48 IST" duration-ms="5977" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Application by Reading Excel Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Utils.Basepage.ReadDataFromExcel(Basepage.java:91)
+at Pages.ExcelPage.ReadExcel(ExcelPage.java:42)
+at Tests.ExcelStepDefinition.read_data_from_excel_to_get_password(ExcelStepDefinition.java:37)
+at ✽.Read Data From Excel To get Password(file:///C:/Users/HIMARAJ/eclipse-workspace/SeleniumCucumberAutomation/src/test/java/Features/Excel.feature:30)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T15:39:50 IST" duration-ms="2399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Read From Excel Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T15:39:55 IST" duration-ms="4674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["getTheTotalListOfItems"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T15:39:56 IST" duration-ms="5031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["getTheNameOfItems"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T15:40:00 IST" duration-ms="4930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["AddTheProducts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Add and checkout the product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:39:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T15:40:01 IST" duration-ms="4949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["AddTheProductsAndCheckout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Add and checkout the product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:40:01 IST" name="tearDownClass" finished-at="2024-01-19T15:40:01 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:TestRunner.TestRunner@4cc451f2]" started-at="2024-01-19T15:40:01 IST" name="afterAll" finished-at="2024-01-19T15:40:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAll -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
