@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 19 13:59:31 IST 2024</td>
+<td>Started on:</td><td>Wed Jan 24 13:40:52 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15927 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38895 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,35 +76,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Application by Reading Excel Data", "Title of your feature"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1067)
-	at org.testng.Assert.assertEquals(Assert.java:1031)
-	at org.testng.Assert.assertEquals(Assert.java:1077)
-	at Utils.Basepage.ReadDataFromExcel(Basepage.java:91)
-	at Pages.ExcelPage.ReadExcel(ExcelPage.java:42)
-	at Tests.ExcelStepDefinition.read_data_from_excel_to_get_password(ExcelStepDefinition.java:37)
-	at ✽.Read Data From Excel To get Password(file:///C:/Users/HIMARAJ/eclipse-workspace/SeleniumCucumberAutomation/src/test/java/Features/Excel.feature:30)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1296940445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1296940445'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1067)
-	at org.testng.Assert.assertEquals(Assert.java:1031)
-	at org.testng.Assert.assertEquals(Assert.java:1077)
-	at Utils.Basepage.ReadDataFromExcel(Basepage.java:91)
-	at Pages.ExcelPage.ReadExcel(ExcelPage.java:42)
-	at Tests.ExcelStepDefinition.read_data_from_excel_to_get_password(ExcelStepDefinition.java:37)
-	at ✽.Read Data From Excel To get Password(file:///C:/Users/HIMARAJ/eclipse-workspace/SeleniumCucumberAutomation/src/test/java/Features/Excel.feature:30)
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Texts from Main Concept", "HID Global Assesment"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on windows (e3c03666308df5dda0b123485e494b10)] -&gt; xpath: //*[text()=&apos;Main Concepts&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\HIMARAJ\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3c03666308df5dda0b123485e494b10
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at Utils.Basepage.explicitWait(Basepage.java:41)
+	at Pages.HIDGlobalAssesmentPage.getDataAndSaveinFile(HIDGlobalAssesmentPage.java:66)
+	at Tests.HIDGlobalAssesmentStepDefinition.get_text_from_and_save_it_in_a_file(HIDGlobalAssesmentStepDefinition.java:48)
+	at ✽.Get Text from &quot;Main Concept&quot; and save it in a file(file:///C:/Users/HIMARAJ/eclipse-workspace/HIDGlobalAssesment/src/test/java/Features/HIDGlobalAssesment.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace788113821", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace788113821'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on windows (e3c03666308df5dda0b123485e494b10)] -&gt; xpath: //*[text()=&apos;Main Concepts&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\HIMARAJ\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56316/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3c03666308df5dda0b123485e494b10
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at Utils.Basepage.explicitWait(Basepage.java:41)
+	at Pages.HIDGlobalAssesmentPage.getDataAndSaveinFile(HIDGlobalAssesmentPage.java:66)
+	at Tests.HIDGlobalAssesmentStepDefinition.get_text_from_and_save_it_in_a_file(HIDGlobalAssesmentStepDefinition.java:48)
+	at ✽.Get Text from &quot;Main Concept&quot; and save it in a file(file:///C:/Users/HIMARAJ/eclipse-workspace/HIDGlobalAssesment/src/test/java/Features/HIDGlobalAssesment.feature:25)
 </pre></div></td>
-<td>8</td>
-<td>TestRunner.TestRunner@710f4dc7</td></tr>
+<td>35</td>
+<td>TestRunner.TestRunner@65e98b1c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -115,35 +115,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "getTheNameOfItems", "Title of your feature"</td>
-<td></td>
-<td>6</td>
-<td>TestRunner.TestRunner@710f4dc7</td></tr>
-<tr>
-<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Read From Excel Data", "Title of your feature"</td>
+<td title='Tests.HIDGlobalRestAPI.GetCall()'><b>GetCall</b><br>Test class: Tests.HIDGlobalRestAPI</td>
 <td></td>
 <td>7</td>
-<td>TestRunner.TestRunner@710f4dc7</td></tr>
+<td>Tests.HIDGlobalRestAPI@7d20d0b</td></tr>
 <tr>
-<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "getTheTotalListOfItems", "Title of your feature"</td>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Texts from Advanced Guides", "HID Global Assesment"</td>
 <td></td>
-<td>10</td>
-<td>TestRunner.TestRunner@710f4dc7</td></tr>
-<tr>
-<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Application by Reading Excel Data after writting data", "Title of your feature"</td>
-<td></td>
-<td>11</td>
-<td>TestRunner.TestRunner@710f4dc7</td></tr>
-<tr>
-<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "AddTheProducts", "To Add and checkout the product"</td>
-<td></td>
-<td>6</td>
-<td>TestRunner.TestRunner@710f4dc7</td></tr>
-<tr>
-<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "AddTheProductsAndCheckout", "To Add and checkout the product"</td>
-<td></td>
-<td>5</td>
-<td>TestRunner.TestRunner@710f4dc7</td></tr>
+<td>3</td>
+<td>TestRunner.TestRunner@65e98b1c</td></tr>
 </table><p>
 </body>
 </html>
